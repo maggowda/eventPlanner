@@ -105,7 +105,6 @@ http://localhost:3000
 
 ### Authentication Endpoints
 | Method | Endpoint | Description |
-|--------|----------|-------------|
 | POST | `/api/auth/register` | Register new admin |
 | POST | `/api/auth/login` | Admin login |
 | POST | `/api/auth/logout` | Admin logout |
@@ -114,7 +113,6 @@ http://localhost:3000
 
 ### Event Endpoints
 | Method | Endpoint | Description |
-|--------|----------|-------------|
 | GET | `/api/events` | Get all events |
 | POST | `/api/events` | Create new event |
 | GET | `/api/events/:id` | Get event by ID |
@@ -123,7 +121,6 @@ http://localhost:3000
 
 ### Student Endpoints
 | Method | Endpoint | Description |
-|--------|----------|-------------|
 | GET | `/api/students` | Get all students |
 | POST | `/api/students` | Add new student |
 | GET | `/api/students/:id` | Get student by ID |
@@ -132,7 +129,6 @@ http://localhost:3000
 
 ### Registration Endpoints
 | Method | Endpoint | Description |
-|--------|----------|-------------|
 | POST | `/api/registrations` | Register for event |
 | GET | `/api/registrations` | Get all registrations |
 | DELETE | `/api/registrations/:id` | Cancel registration |
