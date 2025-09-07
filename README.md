@@ -137,38 +137,38 @@ http://localhost:3000
 | GET | `/api/registrations` | Get all registrations |
 | DELETE | `/api/registrations/:id` | Cancel registration |
 
-## Screenshots
+## Output Screenshots
 
 ### Backend API Testing
 ![Backend API - Events](backend/Output/Screenshot%202025-09-07%20133501.png)
-*Event management API endpoints*
+
 
 ![Backend API - Database](backend/Output/Screenshot%202025-09-07%20133623.png)
-*Database connection and queries*
+
 
 ![Backend API - Authentication](backend/Output/Screenshot%202025-09-07%20133853.png)
-*Authentication and authorization*
+
 
 ![Backend API - Response](backend/Output/Screenshot%202025-09-07%20133945.png)
-*API response examples*
+
 
 ### Frontend Application
 ![Frontend - Login](frontend/output/Screenshot%202025-09-07%20090135.png)
-*Admin login interface*
+
 
 ![Frontend - Dashboard](frontend/output/Screenshot%202025-09-07%20090157.png)
-*Main dashboard view*
+
 
 ![Frontend - Events](frontend/output/Screenshot%202025-09-07%20090209.png)
-*Event management interface*
+
 
 ![Frontend - Students](frontend/output/Screenshot%202025-09-07%20090219.png)
-*Student management system*
+
 
 ![Frontend - Registration](frontend/output/Screenshot%202025-09-07%20090231.png)
-*Event registration interface*
+
 
 ![Frontend - Reports](frontend/output/Screenshot%202025-09-07%20090246.png)
-*Reports and analytics*
+
 
 **Campus Event Planner** - Streamlining event management for educational institutions.
