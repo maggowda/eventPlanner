@@ -104,38 +104,38 @@ http://localhost:3000
 ```
 
 ### Authentication Endpoints
-| Method | Endpoint | Description |
-|--------|----------|-------------|
-| POST | `/api/auth/register` | Register new admin |
-| POST | `/api/auth/login` | Admin login |
-| POST | `/api/auth/logout` | Admin logout |
-| GET | `/api/auth/profile` | Get admin profile |
-| PUT | `/api/auth/profile` | Update admin profile |
+```
+ POST | `/api/auth/register` | Register new admin 
+ POST | `/api/auth/login`    | Admin login 
+ POST | `/api/auth/logout`   | Admin logout 
+ GET  | `/api/auth/profile`  | Get admin profile 
+ PUT  | `/api/auth/profile`  | Update admin profile 
+ ```
 
 ### Event Endpoints
-| Method | Endpoint | Description |
-|--------|----------|-------------|
-| GET | `/api/events` | Get all events |
-| POST | `/api/events` | Create new event |
-| GET | `/api/events/:id` | Get event by ID |
-| PUT | `/api/events/:id` | Update event |
-| DELETE | `/api/events/:id` | Delete event |
+```
+ GET    | `/api/events`     | Get all events 
+ POST   | `/api/events`     | Create new event 
+ GET    | `/api/events/:id` | Get event by ID 
+ PUT    | `/api/events/:id` | Update event 
+ DELETE | `/api/events/:id` | Delete event 
+```
 
 ### Student Endpoints
-| Method | Endpoint | Description |
-|--------|----------|-------------|
-| GET | `/api/students` | Get all students |
-| POST | `/api/students` | Add new student |
-| GET | `/api/students/:id` | Get student by ID |
-| PUT | `/api/students/:id` | Update student |
-| DELETE | `/api/students/:id` | Delete student |
+```
+ GET    | `/api/students`     | Get all students 
+ POST   | `/api/students`     | Add new student 
+ GET    | `/api/students/:id` | Get student by ID 
+ PUT    | `/api/students/:id` | Update student 
+ DELETE | `/api/students/:id` | Delete student 
+```
 
 ### Registration Endpoints
-| Method | Endpoint | Description |
-|--------|----------|-------------|
-| POST | `/api/registrations` | Register for event |
-| GET | `/api/registrations` | Get all registrations |
-| DELETE | `/api/registrations/:id` | Cancel registration |
+```
+ POST   | `/api/registrations`     | Register for event 
+ GET    | `/api/registrations`     | Get all registrations 
+ DELETE | `/api/registrations/:id` | Cancel registration 
+```
 
 ## Output Screenshots
 
