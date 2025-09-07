@@ -103,7 +103,7 @@ eventPlanner/
 http://localhost:3000
 ```
 
-### Authentication Endpoints
+### Authentication API's
 ```
  POST | `/api/auth/register` | Register new admin 
  POST | `/api/auth/login`    | Admin login 
@@ -112,7 +112,7 @@ http://localhost:3000
  PUT  | `/api/auth/profile`  | Update admin profile 
  ```
 
-### Event Endpoints
+### Event API's
 ```
  GET    | `/api/events`     | Get all events 
  POST   | `/api/events`     | Create new event 
@@ -121,7 +121,7 @@ http://localhost:3000
  DELETE | `/api/events/:id` | Delete event 
 ```
 
-### Student Endpoints
+### Student API's
 ```
  GET    | `/api/students`     | Get all students 
  POST   | `/api/students`     | Add new student 
@@ -130,7 +130,7 @@ http://localhost:3000
  DELETE | `/api/students/:id` | Delete student 
 ```
 
-### Registration Endpoints
+### Registration API's
 ```
  POST   | `/api/registrations`     | Register for event 
  GET    | `/api/registrations`     | Get all registrations 
