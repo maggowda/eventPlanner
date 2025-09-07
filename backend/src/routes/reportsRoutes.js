@@ -1,0 +1,10 @@
+import express from 'express';
+import { eventPopularity, studentParticipation, topStudents, filterEvents, attendancePercentage, feedbackAverage } from '../controllers/ReportController.js';
+const router = express.Router();
+router.get('/event-popularity', eventPopularity);
+router.get('/student-participation', studentParticipation);
+router.get('/top-students', topStudents);
+router.get('/filter', filterEvents);
+router.get('/attendance/:event_id', attendancePercentage);
+router.get('/feedback/:event_id', feedbackAverage);
+export default router;

@@ -1,6 +1,5 @@
 {
-  "name": "event-planner-backend",
-  "version": "1.0.0",
+  "name": "campus-event-backend",
   "type": "module",
   "main": "server.js",
   "scripts": {
@@ -8,11 +7,14 @@
     "dev": "nodemon server.js"
   },
   "dependencies": {
-    "@supabase/supabase-js": "^2.43.4",
+    "@supabase/supabase-js": "^2.57.2",
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.5",
     "dotenv": "^16.4.5",
     "express": "^4.19.2",
-    "morgan": "^1.10.0",
-    "cors": "^2.8.5"
+    "joi": "^18.0.1",
+    "jsonwebtoken": "^9.0.2",
+    "morgan": "^1.10.0"
   },
   "devDependencies": {
     "nodemon": "^3.1.4"
