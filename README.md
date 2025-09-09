@@ -29,11 +29,11 @@ eventPlanner/
 
 ## Features
 
-### Core Functionality
+### Main Function
 - **Event Management**: Create, read, update, delete events
-- **Student Management**: Register and manage student profiles
+- **Student Management**: Register and manage students
 - **Event Registration**: Students can register for events
-- **Attendance Tracking**: Mark attendance with QR codes
+- **Attendance Tracking**: Marking of attendance by admins
 - **Reporting**: Generate attendance and event reports
 - **Feedback System**: Collect event feedback and ratings
 
@@ -45,7 +45,7 @@ eventPlanner/
 ## Installation & Setup
 
 ### Prerequisites
-- Node.js (v18 or higher)
+- Node.js 
 - npm or yarn
 - Supabase account
 
