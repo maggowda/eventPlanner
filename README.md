@@ -2,16 +2,6 @@
 
 An event management system for colleges/universities, built with modern web technologies.
 
-## Project Structure
-
-```
-eventPlanner/
-├── backend/          # Node.js/Express.js API server
-├── frontend/         # React.js web application
-├── LICENSE          # Project license
-└── README.md        # Project documentation
-```
-
 ## Tech Stack
 
 ### Backend
